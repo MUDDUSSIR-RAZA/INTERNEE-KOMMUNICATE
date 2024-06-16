@@ -1,0 +1,152 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #4b7bec, #1e90ff);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 0.9rem;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+}
+
+.section h2 {
+    color: #4b7bec;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.section ul li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 0.8rem 0;
+    background: linear-gradient(to right, #4b7bec, #1e90ff);
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.8rem;
+    }
+
+    .section h2 {
+        font-size: 1.3rem;
+    }
+
+    .section p, .section ul li {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0.8rem 0;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    header p {
+        font-size: 0.7rem;
+    }
+
+    .section {
+        padding: 1rem;
+    }
+
+    .section h2 {
+        font-size: 1.2rem;
+    }
+
+    .section p, .section ul li {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        padding: 0.6rem 0;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1rem;
+    }
+
+    header p {
+        font-size: 0.6rem;
+    }
+
+    .section h2 {
+        font-size: 1rem;
+    }
+
+    .section p, .section ul li {
+        font-size: 0.6rem;
+    }
+
+    footer {
+        padding: 0.4rem 0;
+        font-size: 0.6rem;
+    }
+}
